@@ -1,0 +1,609 @@
+@require './_*.styl'         // Import all partials
+
+.noJSMessage
+  width 100%
+  background-color black
+  color grey
+  height 150px
+  padding-top 10vh
+  padding-bottom 10vh
+  text-align center
+  a
+    background-color black
+    display inline-block
+    margin 0
+    width 100%
+
+
+body
+  width 100%
+  margin 0 auto
+  background black
+  background url('./images/background.jpg') left center repeat fixed
+
+input
+  text-align center
+  color blue
+  font-size 2.8rem
+  background-color transparent
+  border 0
+  // text-indent 1rem
+
+input[type=number]::-webkit-inner-spin-button
+input[type=number]::-webkit-outer-spin-button
+  &. green
+    -webkit-appearance none
+    margin 0
+
+#bmrCalc select
+  color blue
+  padding-top 0px
+
+select
+  color blue
+  border-radius 0px
+  padding-top 3px
+  background-color transparent
+
+header
+  width 100%
+  background linear-gradient(black,black,blue)
+  font-size 9rem
+  color white
+  margin 0
+
+footer
+  height 80px
+  background black
+  text-align center
+  vertical-align bottom
+  color white
+  font-size 1.5rem
+  div
+    display inline-block
+    padding-top 17px
+
+label
+  width 100%
+  font-size 2rem
+
+button
+  width 50%
+  height 70px
+  background grey
+  padding 0
+  border 1px solid black
+  border-top 4px solid black
+  &:hover
+    background blue
+    color white
+  &:focus
+    outline-color white
+    outline-width 1px
+h1
+  input.i
+    width 6%
+    vertical-align middle
+    max-width 25px
+a
+  text-decoration none
+  color blue
+  white-space: nowrap
+  &:hover
+    cursor pointer
+
+:focus
+  outline-color blue
+
+summary
+  &:focus
+    outline-color orange
+
+.logo
+  width 13vw
+  color green
+  max-width 200px
+  padding-top 15px
+
+.sTitle
+  display inline-block
+
+.half
+  width 50%
+.third,
+  width 33%
+  padding 0
+.qtr
+  width 25%
+.three-qtr
+  width 75%
+  padding 0
+.bold
+  font-weight bold
+
+span.green
+  color green
+  font-size 3rem
+
+.third span.green
+  color green
+
+.p0
+  padding 0
+
+.bottomSpacer
+  min-height 50px
+  height 250px
+  background-color transparent
+
+#app-intro
+  border 5px double blue
+  font-size 1.4rem
+  margin-top 0px
+  background-color white
+  color black
+  padding 5px 20px
+  text-align justify
+  vertical-align middle
+  .app-intro-msg
+    float left
+    width 90%
+  .close-label
+    display none
+    padding-left 1rem
+  &.app-intro-hide
+    padding 0
+    color black
+    height 40px
+    margin 0
+    .app-intro-msg
+      display none
+      width 0
+    .close-icon
+      width 100%
+      background-color transparent
+      input
+        transform rotate(45deg)
+        border-radius 50%
+    .close-label
+      display inline-block
+
+.close-icon
+  display inline-block
+  width 5%
+  float right
+  margin 0 auto
+  vertical-align middle
+  text-align center
+  padding-top 0vw
+  height auto
+  input
+    width 5vw
+    height 5vw
+    max-width 20px
+    max-height 20px
+    vertical-align middle
+    &:hover
+      background-color blue
+      border-radius 50%
+
+.subcomponent
+  width 100%
+  display inline-block
+  text-align center
+  border-top 2px solid black
+  background-color white
+  padding 0 5px
+  h1
+    font-size 3.5rem
+    margin .5vh 0
+    p
+      display inline
+      font-size 2rem
+      vertical-align middle
+      color orange
+    img
+      width 4%
+      vertical-align middle
+  h4
+    margin 0vh
+  label,
+  select,
+  .divIL
+    display inline-block
+  select
+    -webkit-appearance none
+    text-align-last center
+    align center
+    width 100%
+  input
+    width 100%
+  .infoText
+    margin 0 auto 10px auto
+    width 100%
+    font-size 1.2rem
+    background lightgrey
+    color black
+    padding 10px 1% 5px 1%
+    text-align justify
+    border-top 4px solid blue
+    border-bottom 4px solid blue
+    border-left 2px solid blue
+    border-right 2px solid blue
+    ul
+      list-style-type square
+      padding-left 20px
+      width 100%
+      li
+        width 100%
+        text-align left
+
+  .planSource
+    padding 10px
+    margin 0px auto 0 auto
+    box-sizing border-box
+    border 3px solid blue
+    font-size 1.2rem
+    width 80%
+  .half
+    width 50%
+    padding 0
+  .qtr
+    width 25%
+    padding 0
+  .third
+    width 33%
+    padding 0
+
+.subheader
+  font-size 5vw
+  position relative
+  top -5px
+  text-align center
+  width 100%
+  margin 0
+  font-family "Times New Roman"
+
+/* Interdiv separator */
+div.divIL.half
+  &:nth-child(1),
+  &:nth-child(2)
+    border-right 1px solid blue
+  &:nth-last-child(1)
+    border-right 0
+.macro_half1
+  border-right 1px solid blue
+
+/* Answer Underline */
+.solLeft, .solRight
+  display inline-block
+  background-color green
+  height 2px
+  margin 0 auto
+  padding 0
+  width (50/2)%
+  vertical-align middle
+  &.red
+    background-color red
+  &.yellow
+    background-color orange
+.solLeft
+  border-right 1px solid blue
+.solRight
+  border-left 1px solid blue
+.solution
+  width 100%
+  margin 0 auto
+  padding 0 auto
+  display inline-block
+  h4, #bmr
+    display inline-block
+    width 50%
+
+#tdeeCalc
+  h4
+    margin-top 5px
+
+select
+  font-size 1.7rem
+
+#bmrCalc, #macros, #adjustments, #bmiCalc
+  select
+    font-size 2.3rem
+  input
+    padding-left 0rem
+  .i
+    padding 0
+
+#adjustments, #macros
+  select
+    font-size 1.9rem
+
+#bmiCalc
+  input
+    font-size 2.6rem
+    outline-color orange
+
+#bmiInputs
+  width 100%
+  ti
+    width 50%
+
+#mail_icon, #mail_icon2
+  width 35px
+  vertical-align middle
+
+#macros h4, #adjustments h4
+  letter-spacing 2px
+  padding-top 5px
+  font-family 'Theano Didot Regular', sans-serif
+
+.highlight
+  padding 5px 0 0 0
+  .highlight_mid
+    background-color transparent
+    width 80%
+    margin 0 auto
+    display inline-block
+    vertical-align middle
+    h4
+      border-bottom 1px solid white
+      background-color blue
+      color white
+      padding 0
+    ul
+      width 100%
+      overflow hidden
+      display block
+      margin 1rem auto
+      display inline-block
+      background-color lightgrey
+      margin 0
+      padding 0
+      li
+        border-bottom 1px solid white
+        display inline-block
+        width 100%
+        font-size 1.3rem
+  .navBack, .navForward
+    width 10%
+    height 100%
+    display inline-block
+    &:hover
+      color blue
+      cursor pointer
+
+/* infoText arrow decoration */
+.infoText
+  position relative; /* Position must be relative to absolutely position :after */
+.infoText:after
+  content'' /* Required to display content */
+  position absolute /* Sets the position absolute to the top div */
+  top 0
+  left 50%
+  margin-left -10px /* Set margin equal to border px */
+  width 0
+  z-index 1
+  height 0
+  border-top solid 10px blue /* Creates the notch */
+  border-left solid 10px transparent /* Creates triangle effect */
+  border-right solid 10px transparent /* Creates triangle effect */
+
+#goalPL, #goalPH
+  width 100%
+
+.tg,
+.ti
+  label
+    width 100%
+  input
+    width 100%
+  input:focus
+    outline-color blue
+  .pct_sign
+    font-size 2.8rem
+    color blue
+    position relative
+    left 0px
+    float left
+
+:disabled
+  color grey
+
+// Macros
+#macros
+  input
+    padding 0
+  &.subcomponent
+    padding 0
+    select
+    .infoText
+      width calc(100% - 10px)
+
+#macroMode
+  width 50%
+  margin 5px auto
+  text-align center
+  vertical-align middle
+  h4
+    margin-bottom 0
+  input
+    text-indent 0
+    font-size 2rem
+    width 25%
+    display inline-block
+    border 2px solid blue
+    margin-top 0
+    padding 0
+    &.blue
+      background-color blue
+      color white
+    &:focus
+      outline-color transparent
+      outline 0
+#macro_modep
+  border-top-left-radius 25px
+  border-bottom-left-radius 25px
+#macro_modeg
+  border-top-right-radius 25px
+  border-bottom-right-radius 25px
+
+/* Media Queries */
+@media (max-width 1500px)
+  #adjustments
+    .il.green
+      color green
+    input.il
+      outline none
+      -webkit-appearance none
+
+@media (min-width: 1000px)
+  body
+    max-width 700px
+  label
+    font-size 2rem
+
+@media (min-width: 900px) and (max-width: 1000px)
+  body
+    width 75%
+  label
+    font-size 2rem
+
+@media (min-width: 800px) and (max-width: 900px)
+  body
+    width 85%
+  label
+    font-size 3vw
+
+@media (min-width: 801px)
+  .subheader
+    font-size 2.8rem
+  .logo
+    width 7rem
+
+@media (max-width: 800px)
+  body
+    max-width 700px
+  .subheader
+    font-size 2.8rem
+  .logo
+    width 7rem
+  label
+    font-size 2.1rem
+
+
+@media (max-width: 700px)
+  .tg
+    .pct_sign
+      left -5px
+  .subheader
+    font-size 2.8rem
+  .logo
+    width 7rem
+  label
+    font-size 2rem
+  .solLeft, .solRight
+    width 20%
+  .solution
+    h4, #bmr
+      width 60%
+    h4
+      font-size 1.9rem
+
+@media (max-width 600px)
+  h1
+    input.i
+      width 30px
+  .subheader
+    font-size 6.5vw
+  .logo
+    width 15vw
+  .solLeft, .solRight
+    width (35/2)%
+  .solution
+    h4, #bmr
+      width 65%
+    h4
+      font-size 1.9rem
+
+  label .green,
+  .solution .green,
+  input
+    font-size 2.8rem
+
+@media (max-width: 500px)
+  .tg
+    .pct_sign
+      left -5px
+  .solLeft, .solRight
+    width (20/2)%
+  .solution
+    h4, #bmr
+      width 80%
+    h4
+      font-size 1.2rem
+  .logo
+    width 18vw
+  .subheader
+    font-size 2.3rem
+  #tdeeCalc, .sTitle
+    h1
+      font-size 1.8em
+  .subcomponent
+    h4
+      font-size 1.8rem
+    label
+      font-size 4.9vw
+    .planSource
+      font-size 3vw
+      width 80%
+    .green, input
+      font-size 3rem
+
+@media (max-width: 410px)
+  button
+    font-size 1.5rem
+  select
+    font-size 1.5rem
+  #adjustments, #macros
+    select
+      font-size 1.5rem
+  .logo
+    width 16vw
+  .subheader
+    font-size 1.9rem
+
+  .solLeft, .solRight
+    width (30/2)%
+
+  .solution
+    h4, #bmr
+      width 70%
+
+  #tdeeCalc, .sTitle
+    h1
+      font-size 1.5em
+
+  .subcomponent
+    h1
+      font-size 1.4em
+      margin .5vh 0
+      input.i
+        width 20px
+    h4
+      font-size 1.5rem
+    label
+      font-size 4.9vw
+    .infoText
+      font-size 1.3rem
+    .planSource
+      font-size 3.5vw
+      .planLink
+        display block
+    input, .green
+      font-size 2.4rem
+
+@media (max-width: 320px)
+  .solution
+    h4
+      font-size 1.5rem

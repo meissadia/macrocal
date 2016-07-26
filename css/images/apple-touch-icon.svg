@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   id="svg3376"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   viewBox="0 0 256 256"
+   sodipodi:docname="apple-touch-icon.svg"
+   inkscape:export-filename="/Coding/React/macrocal/css/images/apple-touch-icon-72x72.png"
+   inkscape:export-xdpi="45.011494"
+   inkscape:export-ydpi="45.011494">
+  <defs
+     id="defs3378">
+    <linearGradient
+       id="linearGradient5676"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0099ff;stop-opacity:1;"
+         offset="0"
+         id="stop5678" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5662"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0099ff;stop-opacity:1;"
+         offset="0"
+         id="stop5664" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.9445436"
+     inkscape:cx="67.320516"
+     inkscape:cy="75.537616"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
+     inkscape:window-x="9"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3381">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,192)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero"
+       d="M 131.61111,-192.0918 A 131.61167,128.04546 0 0 0 0,-64.04492 131.61167,128.04546 0 0 0 131.61111,64 131.61167,128.04546 0 0 0 254.58587,-18.85156 117.94825,99.252266 0 0 1 149.59851,35.38867 117.94825,99.252266 0 0 1 31.650588,-63.86328 117.94825,99.252266 0 0 1 149.59851,-163.11523 117.94825,99.252266 0 0 1 254.98136,-108.38867 131.61167,128.04546 0 0 0 131.61111,-192.0918 Z"
+       id="path3400"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:286.8520813px;line-height:139.99999762%;font-family:'Baoli SC';-inkscape-font-specification:'Baoli SC, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="15.930096"
+       y="12.577176"
+       id="text4210"
+       sodipodi:linespacing="140%"
+       transform="scale(0.93437054,1.0702392)"><tspan
+         sodipodi:role="line"
+         id="tspan4212"
+         x="15.930096"
+         y="12.577176"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:286.8520813px;line-height:139.99999762%;font-family:'Baoli SC';-inkscape-font-specification:'Baoli SC, Medium';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero">M</tspan></text>
+  </g>
+</svg>

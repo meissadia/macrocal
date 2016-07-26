@@ -1,0 +1,70 @@
+/*
+  Possible Animations:
+  enter
+  leave
+  appear Must set transitionAppear={true} on animation component
+*/
+
+.info-enter
+  transition transform 1s linear background-color 1s !important
+  max-height 0 !important
+  padding 0 !important
+  color lightblue
+  opacity 0.1
+  font-size 2rem
+  line-height 0
+  p
+    line-height 0
+    display hidden
+    transform scale(0.1,0.1)
+  &.info-enter-active
+    opacity 1
+    transition opacity .1s ease-in;
+    padding 2rem 0 !important
+    color black
+    line-height 2rem
+    p
+      line-height 2rem
+      display inline-block
+      transform scale(0,0)
+
+.info-leave
+  transition all .1s !important
+  padding 2rem 0 !important
+  font-size 2rem
+  color black
+  opacity 1
+  &.info-leave-active
+    max-height 0 !important
+    padding 0 !important
+    color lightblue
+    opacity 0.1
+    transform scale(1,0)
+
+.subcomp-appear
+  transition 1s !important
+  opacity 0.1
+  background-color green
+  &.subcomp-appear-active
+    transition opacity 1s ease-in
+    transition 1s
+    opacity 1
+
+.subcomp-leave
+  transition 1s !important
+  opacity 1
+  background-color red
+  &.subcomp-leave-active
+    transition opacity 1s ease-in
+    transition 1s
+    opacity 0,1
+
+/* Mail Icon */
+footer
+  #mail_icon
+    transition all 1s  !important
+    transform scale(1,1) translate(0) rotate(0)
+  &:hover
+    #mail_icon
+      transition all 2s, translate 1s ease-in  !important
+      transform scale(1,0) translate(750px) rotate(360deg)

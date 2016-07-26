@@ -1,0 +1,8 @@
+build/main.js
+build/css/images/logo.svg
+build/css/images/apple-touch-icon.svg
+scripts/
+css/
+package.json
+gulpfile.js
+CNAME
