@@ -1,4 +1,3 @@
-<center>
 ##MacroCal
 [![header](./screen-shot.png)](https://macrocal.surge.sh)
 
@@ -22,6 +21,6 @@ CSS3
 [Stylus](https://github.com/stylus/stylus)  
 [Gulp](https://github.com/gulpjs/gulp)  
 
-  
+
 ### Support
 [themacrocal@gmail.com](mailto:themacrocal@gmail.com)
